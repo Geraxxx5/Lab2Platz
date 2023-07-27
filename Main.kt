@@ -1,3 +1,5 @@
+//Gabriel Gerardo Pineda Riveiro
+//Plataformas Moviles - Laboratorio #2
 fun main(args: Array<String>) {
     var usuarios = mutableListOf<PerfilUsuario>()
     var flag = true
@@ -170,6 +172,8 @@ fun main(args: Array<String>) {
 
     }
 }
+//Gabriel Gerardo Pineda Riveiro
+//Plataformas Moviles - Laboratorio #2
 
 fun createProfiles(usuarios: MutableList<PerfilUsuario>){
     usuarios.add(PerfilUsuario(0,"Gabriel Gerardo","Pineda Riveiro","https://th.bing.com/th/id/R.7b88b15c8b7ada49a6401eae9a2907b3?rik=pFqzYElBhpNxNQ&riu=http%3a%2f%2fwww.servidor-alicante.com%2ffotos-divertidas%2fAnimales%2fMonos%2fMonito_pensativo.jpg&ehk=nHdkSFMrg16B2v72LnYdnNelhVD8qclaf5AXMw6RuK4%3d&risl=&pid=ImgRaw&r=0",20,"gerax.pineda@gmail.com",null,"Activo"))
